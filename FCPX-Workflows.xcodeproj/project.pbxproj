@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC90FD8E21358282004FCDB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90FD8D21358282004FCDB4 /* AppDelegate.swift */; };
+		AC90FD9021358282004FCDB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90FD8F21358282004FCDB4 /* ViewController.swift */; };
+		AC90FD9221358284004FCDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC90FD9121358284004FCDB4 /* Assets.xcassets */; };
+		AC90FD9521358284004FCDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC90FD9321358284004FCDB4 /* Main.storyboard */; };
+		AC90FDA121358284004FCDB4 /* FCPX_WorkflowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90FDA021358284004FCDB4 /* FCPX_WorkflowsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC90FD9D21358284004FCDB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC90FD8221358282004FCDB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC90FD8921358282004FCDB4;
+			remoteInfo = "FCPX-Workflows";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC90FD8A21358282004FCDB4 /* FCPX-Workflows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FCPX-Workflows.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90FD8D21358282004FCDB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC90FD8F21358282004FCDB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC90FD9121358284004FCDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC90FD9421358284004FCDB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC90FD9621358284004FCDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC90FD9721358284004FCDB4 /* FCPX_Workflows.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FCPX_Workflows.entitlements; sourceTree = "<group>"; };
+		AC90FD9C21358284004FCDB4 /* FCPX-WorkflowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FCPX-WorkflowsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90FDA021358284004FCDB4 /* FCPX_WorkflowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCPX_WorkflowsTests.swift; sourceTree = "<group>"; };
+		AC90FDA221358284004FCDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC90FD8721358282004FCDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC90FD9921358284004FCDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC90FD8121358282004FCDB4 = {
+			isa = PBXGroup;
+			children = (
+				AC90FD8C21358282004FCDB4 /* FCPX-Workflows */,
+				AC90FD9F21358284004FCDB4 /* FCPX-WorkflowsTests */,
+				AC90FD8B21358282004FCDB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC90FD8B21358282004FCDB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC90FD8A21358282004FCDB4 /* FCPX-Workflows.app */,
+				AC90FD9C21358284004FCDB4 /* FCPX-WorkflowsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC90FD8C21358282004FCDB4 /* FCPX-Workflows */ = {
+			isa = PBXGroup;
+			children = (
+				AC90FD8D21358282004FCDB4 /* AppDelegate.swift */,
+				AC90FD8F21358282004FCDB4 /* ViewController.swift */,
+				AC90FD9121358284004FCDB4 /* Assets.xcassets */,
+				AC90FD9321358284004FCDB4 /* Main.storyboard */,
+				AC90FD9621358284004FCDB4 /* Info.plist */,
+				AC90FD9721358284004FCDB4 /* FCPX_Workflows.entitlements */,
+			);
+			path = "FCPX-Workflows";
+			sourceTree = "<group>";
+		};
+		AC90FD9F21358284004FCDB4 /* FCPX-WorkflowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC90FDA021358284004FCDB4 /* FCPX_WorkflowsTests.swift */,
+				AC90FDA221358284004FCDB4 /* Info.plist */,
+			);
+			path = "FCPX-WorkflowsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC90FD8921358282004FCDB4 /* FCPX-Workflows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC90FDA521358284004FCDB4 /* Build configuration list for PBXNativeTarget "FCPX-Workflows" */;
+			buildPhases = (
+				AC90FD8621358282004FCDB4 /* Sources */,
+				AC90FD8721358282004FCDB4 /* Frameworks */,
+				AC90FD8821358282004FCDB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCPX-Workflows";
+			productName = "FCPX-Workflows";
+			productReference = AC90FD8A21358282004FCDB4 /* FCPX-Workflows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC90FD9B21358284004FCDB4 /* FCPX-WorkflowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC90FDA821358284004FCDB4 /* Build configuration list for PBXNativeTarget "FCPX-WorkflowsTests" */;
+			buildPhases = (
+				AC90FD9821358284004FCDB4 /* Sources */,
+				AC90FD9921358284004FCDB4 /* Frameworks */,
+				AC90FD9A21358284004FCDB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC90FD9E21358284004FCDB4 /* PBXTargetDependency */,
+			);
+			name = "FCPX-WorkflowsTests";
+			productName = "FCPX-WorkflowsTests";
+			productReference = AC90FD9C21358284004FCDB4 /* FCPX-WorkflowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC90FD8221358282004FCDB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Good To Hear";
+				TargetAttributes = {
+					AC90FD8921358282004FCDB4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AC90FD9B21358284004FCDB4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AC90FD8921358282004FCDB4;
+					};
+				};
+			};
+			buildConfigurationList = AC90FD8521358282004FCDB4 /* Build configuration list for PBXProject "FCPX-Workflows" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC90FD8121358282004FCDB4;
+			productRefGroup = AC90FD8B21358282004FCDB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC90FD8921358282004FCDB4 /* FCPX-Workflows */,
+				AC90FD9B21358284004FCDB4 /* FCPX-WorkflowsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC90FD8821358282004FCDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90FD9221358284004FCDB4 /* Assets.xcassets in Resources */,
+				AC90FD9521358284004FCDB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC90FD9A21358284004FCDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC90FD8621358282004FCDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90FD9021358282004FCDB4 /* ViewController.swift in Sources */,
+				AC90FD8E21358282004FCDB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC90FD9821358284004FCDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90FDA121358284004FCDB4 /* FCPX_WorkflowsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC90FD9E21358284004FCDB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC90FD8921358282004FCDB4 /* FCPX-Workflows */;
+			targetProxy = AC90FD9D21358284004FCDB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC90FD9321358284004FCDB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC90FD9421358284004FCDB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC90FDA321358284004FCDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC90FDA421358284004FCDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC90FDA621358284004FCDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FCPX-Workflows/FCPX_Workflows.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = "FCPX-Workflows/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodtohear.FCPX-Workflows";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AC90FDA721358284004FCDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FCPX-Workflows/FCPX_Workflows.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = "FCPX-Workflows/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodtohear.FCPX-Workflows";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		AC90FDA921358284004FCDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = "FCPX-WorkflowsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodtohear.FCPX-WorkflowsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCPX-Workflows.app/Contents/MacOS/FCPX-Workflows";
+			};
+			name = Debug;
+		};
+		AC90FDAA21358284004FCDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = "FCPX-WorkflowsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodtohear.FCPX-WorkflowsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCPX-Workflows.app/Contents/MacOS/FCPX-Workflows";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC90FD8521358282004FCDB4 /* Build configuration list for PBXProject "FCPX-Workflows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90FDA321358284004FCDB4 /* Debug */,
+				AC90FDA421358284004FCDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC90FDA521358284004FCDB4 /* Build configuration list for PBXNativeTarget "FCPX-Workflows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90FDA621358284004FCDB4 /* Debug */,
+				AC90FDA721358284004FCDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC90FDA821358284004FCDB4 /* Build configuration list for PBXNativeTarget "FCPX-WorkflowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90FDA921358284004FCDB4 /* Debug */,
+				AC90FDAA21358284004FCDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC90FD8221358282004FCDB4 /* Project object */;
+}
