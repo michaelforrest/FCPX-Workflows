@@ -48,6 +48,7 @@
 		AC28A413224A77230025DF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC28A415224A77230025DF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC28A416224A77230025DF0F /* Final_Cut_Placeholders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Final_Cut_Placeholders.entitlements; sourceTree = "<group>"; };
+		AC5833ED23CF5743004F97EB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AC90FD8A21358282004FCDB4 /* FCPX-Workflows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FCPX-Workflows.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC90FD8D21358282004FCDB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC90FD8F21358282004FCDB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +122,7 @@
 		AC90FD8121358282004FCDB4 = {
 			isa = PBXGroup;
 			children = (
+				AC5833ED23CF5743004F97EB /* README.md */,
 				AC90FD8C21358282004FCDB4 /* FCPX-Workflows */,
 				AC90FD9F21358284004FCDB4 /* FCPX-WorkflowsTests */,
 				ACD7177A213E794B0064BEE2 /* FinalCutMarkers */,
