@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  FCPX-Workflows
+//  FinalCutMarkers
 //
-//  Created by Michael Forrest on 28/08/2018.
+//  Created by Michael Forrest on 04/09/2018.
 //  Copyright © 2018 Good To Hear. All rights reserved.
 //
 
@@ -20,8 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-    func application(_ sender: NSApplication, openFile filename: String) -> Bool {
-        print("opening \(filename)")
+    func applicationShouldOpenUntitledFile(_ sender: NSApplication) -> Bool {
         return false
     }
 

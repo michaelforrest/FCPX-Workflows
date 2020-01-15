@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EEC1D17A-5A50-42A3-AC2D-D0EBA686001A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC160007-E81C-469D-8830-CD9FA0793191"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinalCutMarkers/Document.swift"
+            timestampString = "575320770.87796"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "makeWindowControllers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95CDFDCB-C092-433D-A9A3-ED5E7638E91C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinalCutMarkers/Marker.swift"
+            timestampString = "580750105.741822"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "init(string:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95CDFDCB-C092-433D-A9A3-ED5E7638E91C - b5b3e1c758881ced"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinalCutMarkers.Marker.__allocating_init(string: Swift.String) -&gt; FinalCutMarkers.Marker"
+                  moduleName = "FinalCutMarkers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mf/code/grandpodcast/FCPX-Workflows/FinalCutMarkers/Marker.swift"
+                  timestampString = "577053919.766062"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  uuid = "95CDFDCB-C092-433D-A9A3-ED5E7638E91C - 5212aea6eb4d3325"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinalCutMarkers.Marker.init(string: Swift.String) -&gt; FinalCutMarkers.Marker"
+                  moduleName = "FinalCutMarkers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mf/code/grandpodcast/FCPX-Workflows/FinalCutMarkers/Marker.swift"
+                  timestampString = "577053919.768809"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E32F05DB-BDBD-46DF-AE47-3D0D1F8087A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinalCutMarkers/Document.swift"
+            timestampString = "575320770.878034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "read(from:ofType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

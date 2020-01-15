@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC046D8B224AAF5900F00CFC /* ChecklistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC046D8A224AAF5900F00CFC /* ChecklistPresenter.swift */; };
+		AC28A40B224A77230025DF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28A40A224A77230025DF0F /* AppDelegate.swift */; };
+		AC28A40D224A77230025DF0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28A40C224A77230025DF0F /* ViewController.swift */; };
+		AC28A40F224A77230025DF0F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28A40E224A77230025DF0F /* Document.swift */; };
+		AC28A411224A77230025DF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC28A410224A77230025DF0F /* Assets.xcassets */; };
+		AC28A414224A77230025DF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC28A412224A77230025DF0F /* Main.storyboard */; };
 		AC90FD8E21358282004FCDB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90FD8D21358282004FCDB4 /* AppDelegate.swift */; };
 		AC90FD9021358282004FCDB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90FD8F21358282004FCDB4 /* ViewController.swift */; };
 		AC90FD9221358284004FCDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC90FD9121358284004FCDB4 /* Assets.xcassets */; };
 		AC90FD9521358284004FCDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC90FD9321358284004FCDB4 /* Main.storyboard */; };
 		AC90FDA121358284004FCDB4 /* FCPX_WorkflowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90FDA021358284004FCDB4 /* FCPX_WorkflowsTests.swift */; };
+		AC90FDAD213586A7004FCDB4 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90FDAC213586A7004FCDB4 /* DropView.swift */; };
+		ACD7177C213E794B0064BEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7177B213E794B0064BEE2 /* AppDelegate.swift */; };
+		ACD7177E213E794B0064BEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7177D213E794B0064BEE2 /* ViewController.swift */; };
+		ACD71780213E794B0064BEE2 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7177F213E794B0064BEE2 /* Document.swift */; };
+		ACD71782213E794C0064BEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD71781213E794C0064BEE2 /* Assets.xcassets */; };
+		ACD71785213E794C0064BEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD71783213E794C0064BEE2 /* Main.storyboard */; };
+		ACD7178C213E7D090064BEE2 /* XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7178B213E7D090064BEE2 /* XML.swift */; };
+		ACD7178E213E7E3C0064BEE2 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7178D213E7E3C0064BEE2 /* Marker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC046D8A224AAF5900F00CFC /* ChecklistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistPresenter.swift; sourceTree = "<group>"; };
+		AC28A408224A77230025DF0F /* Final Cut Placeholders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Cut Placeholders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC28A40A224A77230025DF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC28A40C224A77230025DF0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC28A40E224A77230025DF0F /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		AC28A410224A77230025DF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC28A413224A77230025DF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC28A415224A77230025DF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC28A416224A77230025DF0F /* Final_Cut_Placeholders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Final_Cut_Placeholders.entitlements; sourceTree = "<group>"; };
 		AC90FD8A21358282004FCDB4 /* FCPX-Workflows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FCPX-Workflows.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC90FD8D21358282004FCDB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC90FD8F21358282004FCDB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +58,27 @@
 		AC90FD9C21358284004FCDB4 /* FCPX-WorkflowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FCPX-WorkflowsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC90FDA021358284004FCDB4 /* FCPX_WorkflowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCPX_WorkflowsTests.swift; sourceTree = "<group>"; };
 		AC90FDA221358284004FCDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC90FDAC213586A7004FCDB4 /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		ACD71779213E794B0064BEE2 /* FinalCutMarkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalCutMarkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD7177B213E794B0064BEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD7177D213E794B0064BEE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACD7177F213E794B0064BEE2 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		ACD71781213E794C0064BEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD71784213E794C0064BEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD71786213E794C0064BEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD71787213E794C0064BEE2 /* FinalCutMarkers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalCutMarkers.entitlements; sourceTree = "<group>"; };
+		ACD7178B213E7D090064BEE2 /* XML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XML.swift; sourceTree = "<group>"; };
+		ACD7178D213E7E3C0064BEE2 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC28A405224A77230025DF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC90FD8721358282004FCDB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -52,14 +93,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ACD71776213E794B0064BEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC28A409224A77230025DF0F /* Final Cut Placeholders */ = {
+			isa = PBXGroup;
+			children = (
+				AC28A40A224A77230025DF0F /* AppDelegate.swift */,
+				AC28A40C224A77230025DF0F /* ViewController.swift */,
+				AC28A40E224A77230025DF0F /* Document.swift */,
+				AC28A410224A77230025DF0F /* Assets.xcassets */,
+				AC28A412224A77230025DF0F /* Main.storyboard */,
+				AC28A415224A77230025DF0F /* Info.plist */,
+				AC28A416224A77230025DF0F /* Final_Cut_Placeholders.entitlements */,
+				AC046D8A224AAF5900F00CFC /* ChecklistPresenter.swift */,
+			);
+			path = "Final Cut Placeholders";
+			sourceTree = "<group>";
+		};
 		AC90FD8121358282004FCDB4 = {
 			isa = PBXGroup;
 			children = (
 				AC90FD8C21358282004FCDB4 /* FCPX-Workflows */,
 				AC90FD9F21358284004FCDB4 /* FCPX-WorkflowsTests */,
+				ACD7177A213E794B0064BEE2 /* FinalCutMarkers */,
+				AC28A409224A77230025DF0F /* Final Cut Placeholders */,
 				AC90FD8B21358282004FCDB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +134,8 @@
 			children = (
 				AC90FD8A21358282004FCDB4 /* FCPX-Workflows.app */,
 				AC90FD9C21358284004FCDB4 /* FCPX-WorkflowsTests.xctest */,
+				ACD71779213E794B0064BEE2 /* FinalCutMarkers.app */,
+				AC28A408224A77230025DF0F /* Final Cut Placeholders.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +143,7 @@
 		AC90FD8C21358282004FCDB4 /* FCPX-Workflows */ = {
 			isa = PBXGroup;
 			children = (
+				AC90FDAB21358696004FCDB4 /* Views */,
 				AC90FD8D21358282004FCDB4 /* AppDelegate.swift */,
 				AC90FD8F21358282004FCDB4 /* ViewController.swift */,
 				AC90FD9121358284004FCDB4 /* Assets.xcassets */,
@@ -95,9 +163,50 @@
 			path = "FCPX-WorkflowsTests";
 			sourceTree = "<group>";
 		};
+		AC90FDAB21358696004FCDB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC90FDAC213586A7004FCDB4 /* DropView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACD7177A213E794B0064BEE2 /* FinalCutMarkers */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7178D213E7E3C0064BEE2 /* Marker.swift */,
+				ACD7178B213E7D090064BEE2 /* XML.swift */,
+				ACD7177B213E794B0064BEE2 /* AppDelegate.swift */,
+				ACD7177D213E794B0064BEE2 /* ViewController.swift */,
+				ACD7177F213E794B0064BEE2 /* Document.swift */,
+				ACD71781213E794C0064BEE2 /* Assets.xcassets */,
+				ACD71783213E794C0064BEE2 /* Main.storyboard */,
+				ACD71786213E794C0064BEE2 /* Info.plist */,
+				ACD71787213E794C0064BEE2 /* FinalCutMarkers.entitlements */,
+			);
+			path = FinalCutMarkers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AC28A407224A77230025DF0F /* Final Cut Placeholders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC28A417224A77230025DF0F /* Build configuration list for PBXNativeTarget "Final Cut Placeholders" */;
+			buildPhases = (
+				AC28A404224A77230025DF0F /* Sources */,
+				AC28A405224A77230025DF0F /* Frameworks */,
+				AC28A406224A77230025DF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Cut Placeholders";
+			productName = "Final Cut Placeholders";
+			productReference = AC28A408224A77230025DF0F /* Final Cut Placeholders.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AC90FD8921358282004FCDB4 /* FCPX-Workflows */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC90FDA521358284004FCDB4 /* Build configuration list for PBXNativeTarget "FCPX-Workflows" */;
@@ -133,22 +242,45 @@
 			productReference = AC90FD9C21358284004FCDB4 /* FCPX-WorkflowsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		ACD71778213E794B0064BEE2 /* FinalCutMarkers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD71788213E794C0064BEE2 /* Build configuration list for PBXNativeTarget "FinalCutMarkers" */;
+			buildPhases = (
+				ACD71775213E794B0064BEE2 /* Sources */,
+				ACD71776213E794B0064BEE2 /* Frameworks */,
+				ACD71777213E794B0064BEE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalCutMarkers;
+			productName = FinalCutMarkers;
+			productReference = ACD71779213E794B0064BEE2 /* FinalCutMarkers.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		AC90FD8221358282004FCDB4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Good To Hear";
 				TargetAttributes = {
+					AC28A407224A77230025DF0F = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					AC90FD8921358282004FCDB4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					AC90FD9B21358284004FCDB4 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = AC90FD8921358282004FCDB4;
+					};
+					ACD71778213E794B0064BEE2 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
@@ -167,11 +299,22 @@
 			targets = (
 				AC90FD8921358282004FCDB4 /* FCPX-Workflows */,
 				AC90FD9B21358284004FCDB4 /* FCPX-WorkflowsTests */,
+				ACD71778213E794B0064BEE2 /* FinalCutMarkers */,
+				AC28A407224A77230025DF0F /* Final Cut Placeholders */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AC28A406224A77230025DF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC28A411224A77230025DF0F /* Assets.xcassets in Resources */,
+				AC28A414224A77230025DF0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC90FD8821358282004FCDB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,15 +331,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ACD71777213E794B0064BEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD71782213E794C0064BEE2 /* Assets.xcassets in Resources */,
+				ACD71785213E794C0064BEE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AC28A404224A77230025DF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC28A40D224A77230025DF0F /* ViewController.swift in Sources */,
+				AC046D8B224AAF5900F00CFC /* ChecklistPresenter.swift in Sources */,
+				AC28A40B224A77230025DF0F /* AppDelegate.swift in Sources */,
+				AC28A40F224A77230025DF0F /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC90FD8621358282004FCDB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AC90FD9021358282004FCDB4 /* ViewController.swift in Sources */,
 				AC90FD8E21358282004FCDB4 /* AppDelegate.swift in Sources */,
+				AC90FDAD213586A7004FCDB4 /* DropView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +369,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC90FDA121358284004FCDB4 /* FCPX_WorkflowsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD71775213E794B0064BEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD7177E213E794B0064BEE2 /* ViewController.swift in Sources */,
+				ACD7178C213E7D090064BEE2 /* XML.swift in Sources */,
+				ACD7177C213E794B0064BEE2 /* AppDelegate.swift in Sources */,
+				ACD71780213E794B0064BEE2 /* Document.swift in Sources */,
+				ACD7178E213E7E3C0064BEE2 /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +395,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AC28A412224A77230025DF0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC28A413224A77230025DF0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		AC90FD9321358284004FCDB4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -227,9 +411,60 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		ACD71783213E794C0064BEE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD71784213E794C0064BEE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AC28A418224A77230025DF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Final Cut Placeholders/Final_Cut_Placeholders.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = "Final Cut Placeholders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodtohear.Final-Cut-Placeholders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC28A419224A77230025DF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Final Cut Placeholders/Final_Cut_Placeholders.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = "Final Cut Placeholders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodtohear.Final-Cut-Placeholders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		AC90FDA321358284004FCDB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -423,9 +658,56 @@
 			};
 			name = Release;
 		};
+		ACD71789213E794C0064BEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FinalCutMarkers/FinalCutMarkers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = FinalCutMarkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodtohear.FinalCutMarkers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ACD7178A213E794C0064BEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FinalCutMarkers/FinalCutMarkers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = FinalCutMarkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodtohear.FinalCutMarkers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AC28A417224A77230025DF0F /* Build configuration list for PBXNativeTarget "Final Cut Placeholders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC28A418224A77230025DF0F /* Debug */,
+				AC28A419224A77230025DF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AC90FD8521358282004FCDB4 /* Build configuration list for PBXProject "FCPX-Workflows" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -449,6 +731,15 @@
 			buildConfigurations = (
 				AC90FDA921358284004FCDB4 /* Debug */,
 				AC90FDAA21358284004FCDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD71788213E794C0064BEE2 /* Build configuration list for PBXNativeTarget "FinalCutMarkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD71789213E794C0064BEE2 /* Debug */,
+				ACD7178A213E794C0064BEE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

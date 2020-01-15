@@ -9,11 +9,24 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    @IBOutlet weak var filePathLabel: NSTextField!
+    @IBOutlet var textArea: NSTextView!
+    @IBOutlet weak var button: NSButton!
+    
+    var filePath: String?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
+    }
+    override func viewDidLayout() {
+        super.viewDidLayout()
+        if let path = filePath{
+            filePathLabel.stringValue = path
+        }
+        button.isEnabled = filePath != nil && textArea.string != ""
     }
 
     override var representedObject: Any? {
@@ -23,5 +36,14 @@ class ViewController: NSViewController {
     }
 
 
+    @IBAction func didPressButton(_ sender: Any) {
+    }
+}
+
+extension ViewController:DropViewDelegate{
+    func dropViewDidDidDrop(path: String) {
+        filePath = path
+        view.needsLayout = true
+    }
 }
 
